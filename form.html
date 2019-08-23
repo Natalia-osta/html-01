@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="index.html">ABOUT US </a>
+                    </li>
+                    <li>
+                        <a href="index.html">CONTACTS</a>
+                    </li>
+                    <li>
+                        <a href="index.html">FOLLOW</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form method="POST" action="https://formspree.io/ostas.natali@gmail.com">
+                <label>First name:
+                <input required type="text" placeholder="enter text" name="user-name"></label>
+                <br>
+                <br>
+                <label>Second name:
+                <input required type="text" placeholder="enter text" name="user-second-name">
+            </label>
+                <br>
+                <br>
+                <label for="email">Email:</label>
+                <input required type="email" placeholder="enter text" id="email" name="user-email">
+                <br>
+                <br>
+
+                <label >GENDER:</label>
+                <label ><input required type="radio" name="gender" value="male">Male</label>
+                <label ><input required type="radio" name="gender" value="female">Female</label>
+                <label ><input required type="radio" name="gender" value="other">Other</label>
+                <br>
+                <br>
+                <label for="">Birthday:<input type="date" value="birthday" required max="2019-08-23" name="birthday"></label>
+            <br>
+            <br>
+            <label for="user-comment"> COMMENT: </label>
+            <br>
+            <textarea name="user-comment" id="user-comment" cols="30" rows="10"></textarea>
+                <br>
+            <input type="submit" value="send">
+            </form>
+        </main>
+        <br>
+        <footer>
+            <samp>
+                Template by <a href="https://www.facebook.com/ostashchuk.nataliya">Osta</a>
+            </samp>
+        </footer>
